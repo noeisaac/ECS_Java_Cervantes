@@ -5,7 +5,7 @@ public class UsingVariables {
 	{
 		// TODO Auto-generated method stub
 		int room;
-		double value;
+		double value, string;
 		String word;
 	
 		
