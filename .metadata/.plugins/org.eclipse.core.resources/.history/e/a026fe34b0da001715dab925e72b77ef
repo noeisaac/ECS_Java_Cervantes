@@ -1,0 +1,16 @@
+
+public class MoreVariablesAndPriniting {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		String myName, myEyes, myTeeth, myHair;
+		int myAge, myHeight, myWeight;
+		
+		myName = "Zed A. Shaw";
+		myAge = 35;
+		
+
+	}
+
+}
