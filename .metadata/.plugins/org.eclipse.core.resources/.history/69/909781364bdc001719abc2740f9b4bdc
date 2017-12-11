@@ -14,11 +14,11 @@ public class TwoQuestions {
 		one = keyboard.next();
 		System.out.println( "Question 2) Is it bigger than a breadbox?" );
 		two = keyboard.next();
-		if ( one.equals("animal") && two.equals("no") )
+		if ( one.equals("animal") && two.equals("yes") )
 		{
 			System.out.println( "Is it a sqirrel?!" );
 		}
-		if ( one.equals("animal") && two.equals("yes") )
+		if ( one.equals("animal") && two.equals("no") )
 		{
 			System.out.println( "Is it a moose?!" );
 		}
