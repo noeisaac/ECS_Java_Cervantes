@@ -9,14 +9,19 @@ public class DoubleDice {
 		int roll1 = 1 + r.nextInt(6); 
 		int roll2 = 1 + r.nextInt(6);
 		
+		System.out.println("Here comes the dice!");
+		System.out.println("Roll #1: " + roll1);
+		System.out.println("Roll #2: " + roll2);
+		System.out.println("The total is " + (roll1 + roll2) + "!");
 		while (roll1 != roll2)
 		{
+			roll1 = 1 + r.nextInt(6); 
+			roll2 = 1 + r.nextInt(6);
 			System.out.println("Here comes the dice!");
 			System.out.println("Roll #1: " + roll1);
 			System.out.println("Roll #2: " + roll2);
 			System.out.println("The total is " + (roll1 + roll2) + "!");
-			 roll1 = 1 + r.nextInt(6); 
-			 roll2 = 1 + r.nextInt(6);
+			
 		}
 		if ( roll1 == roll2 )
 		{

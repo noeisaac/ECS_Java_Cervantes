@@ -6,6 +6,9 @@ public class Collatzsequence {
 		// TODO Auto-generated method stub
 		Scanner keyboard = new Scanner(System.in);
 		int number;
+		double even, odd;
+		
+		
 		
 		System.out.println("Lets create a COLLAT SEQUENCE!");
 		System.out.println("Rules:");
@@ -14,16 +17,23 @@ public class Collatzsequence {
 		System.out.println("Repeat this decision until you reach 1");
 		System.out.println("Starting number:");
 		number = keyboard.nextInt();
+		even = number / 2;
+		odd = number * 3 + 1;
 		
-		do
+			if (number %2== 0) 
+			{
+				do
+				{
+				System.out.println(number == even);
+				} while (number != 1);
+			}
+		if (number %2!= 0)
 		{
-			System.out.println((number / 2));
-		} while ( number %2== 0 );
-		do
-		{
-			System.out.println((number * 3) + 1);
-		} while ( number %2!= 0);
-
+			do
+			{
+				System.out.println(number == odd);	
+			} while (number != 1);
+		}
+				
+		} 
 	}
-
-}
